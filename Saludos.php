@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f7f6;
+            background-color: #000000;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -15,7 +15,7 @@
             margin: 0;
         }
         .container {
-            background-color: #ffffff;
+            background-color: #800000;
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -24,7 +24,7 @@
             width: 100%;
         }
         h1 {
-            color: #333333;
+            color: #000000;
             margin-bottom: 20px;
         }
         select, button {
@@ -32,15 +32,15 @@
             padding: 12px;
             margin-top: 10px;
             border-radius: 8px;
-            border: 1px solid #cccccc;
+            border: 1px solid #ff0000;
             font-size: 16px;
             box-sizing: border-box;
         }
         select {
-            background-color: #fafafa;
+            background-color: #d60000;
         }
         button {
-            background-color: #007bff;
+            background-color: #000000;
             color: white;
             border: none;
             cursor: pointer;
@@ -48,16 +48,16 @@
             transition: background-color 0.3s;
         }
         button:hover {
-            background-color: #0056b3;
+            background-color: #6e0000;
         }
         .resultado {
             margin-top: 25px;
             padding: 15px;
-            background-color: #e9ecef;
-            border-left: 5px solid #007bff;
+            background-color: #000000;
+            border-left: 5px solid #b40000;
             border-radius: 4px;
             font-size: 18px;
-            color: #495057;
+            color: #810000;
             font-weight: 500;
         }
     </style>
