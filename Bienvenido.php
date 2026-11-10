@@ -12,7 +12,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         body {
-            background-color: #f4f7f6;
+            background-color: #000000;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,21 +20,21 @@
             padding: 20px;
         }
         .container {
-            background-color: #ffffff;
+            background-color: #c90000;
             width: 100%;
             max-width: 650px;
             padding: 40px;
             border-radius: 12px;
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
             text-align: center;
-            border-top: 8px solid #0056b3;
+            border-top: 8px solid #5a0000;
         }
         .header-escuela {
             margin-bottom: 25px;
         }
         .header-escuela h1 {
             font-size: 1.6rem;
-            color: #333;
+            color: #000000;
             text-transform: uppercase;
             letter-spacing: 1px;
         }
@@ -47,41 +47,44 @@
             border-radius: 8px;
         }
         .bienvenida {
-            background-color: #e7f3ff;
-            color: #0056b3;
+            background-color: #000000;
+            color: #000000;
             padding: 15px;
             border-radius: 8px;
             font-size: 1.4rem;
             font-weight: bold;
             margin: 25px 0;
-            border-left: 5px solid #0056b3;
+            border-left: 5px solid #880000;
         }
         .datos-tarea {
             text-align: left;
-            background-color: #fafafa;
+            background-color: #bb0000;
             padding: 20px;
             border-radius: 8px;
-            border: 1px solid #e0e0e0;
+            border: 1px solid #680000;
             margin-top: 20px;
         }
         .dato-grupo {
             margin-bottom: 12px;
             font-size: 1.05rem;
-            color: #555;
+            color: #000000;
         }
         .dato-grupo:last-child {
             margin-bottom: 0;
         }
         .label {
             font-weight: 600;
-            color: #222;
+            color: #ff0000;
             display: inline-block;
             width: 160px;
         }
         .footer {
             margin-top: 30px;
             font-size: 0.9rem;
-            color: #888;
+            color: #000000;
+        }
+        .bienvenida{
+            color: #9c0000;
         }
     </style>
 </head>
@@ -89,8 +92,8 @@
 
 
 <?php
-    $escuela = "Universidad Tecnológica de México";
-    $alumno = "Juan Miguel Villagómez";
+    $escuela = "cbtis217";
+    $alumno = "Juan Miguel Villagómez Estrada";
     $tarea = "Práctica 1: Introducción a PHP y Servidores Web";
     $fecha = date("d / m / Y"); 
     $logo_url = "https://placeholder.com"; 
@@ -98,7 +101,7 @@
 
 
 <div class="container">
-    <!-- Nombre de la Escuela -->
+
     <div class="header-escuela">
         <h1><?php echo $escuela; ?></h1>
     </div>
