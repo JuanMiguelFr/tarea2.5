@@ -93,7 +93,7 @@
 
 <?php
     $escuela = "cbtis217";
-    $alumno = "Juan Miguel Villagómez";
+    $alumno = "Juan Miguel Villagómez Estrada";
     $tarea = "Práctica 1: Introducción a PHP y Servidores Web";
     $fecha = date("d / m / Y"); 
     $logo_url = "https://placeholder.com"; 
